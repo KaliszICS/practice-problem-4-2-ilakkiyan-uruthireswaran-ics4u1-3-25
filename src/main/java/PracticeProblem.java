@@ -1,27 +1,13 @@
 public class PracticeProblem {
 
 	public static void main(String args[]) {
+		Dog breed = new Dog("Dawg", "French BullDog", 28);
+		System.out.println(breed.getName());
+		System.out.println(breed.setWeight(30));
 
-	}
-
-	public static void q1() {
-		//Write question 1 code here
-	}
-
-	public static void q2() {
-		//Write question 2 code here
-	}
-
-	public static void q3() {
-		//Write question 3 code here
-	}
-
-	public static void q4() {
-		//Write question 4 code here
-	}
-
-	public static void q5() {
-		//Write question 5 code here
+		Car auto = new Car("Toyota", "GT 86", 2021, 25000);
+		System.out.println(auto.getModel());
+		System.out.println(auto.setPrice(20000));
 	}
 
 }
