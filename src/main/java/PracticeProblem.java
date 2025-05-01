@@ -6,7 +6,7 @@ public class PracticeProblem {
 		System.out.println(breed.setWeight(30));
 
 		Car auto = new Car("Toyota", "GT 86", 2021, 25000);
-		System.out.println(auto.getModel());
+		System.out.println(auto.getMake() + " " + auto.getModel());
 		System.out.println(auto.setPrice(20000));
 	}
 
